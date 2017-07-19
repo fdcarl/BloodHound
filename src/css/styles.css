@@ -754,6 +754,29 @@ div.tooltip-inner-custom {
     margin:auto;
 }
 
+.queryNodeInputSelect {
+    position: absolute;
+    z-index: 50;
+    top: 15%;
+    left: 50%;
+    max-width: 30%;
+    transform: translate(-50%, 0);
+    max-height: 30%;
+}
+
+.queryNodeInputSelect div.panel-body {
+    overflow-y: auto;
+    max-height: 16em;
+}
+
+.queryNodeInputSelect img{
+    width: auto;
+    height: 100px;
+    display: block;
+    margin:auto;
+}
+
+
 .tab-content > div:last-child > div{
     max-height: 200px;
     overflow-y: auto;

@@ -15,6 +15,7 @@ import ExportContainer from './components/Float/ExportContainer';
 import Settings from './components/Float/Settings'
 import ZoomContainer from './components/Zoom/ZoomContainer'
 import QueryNodeSelect from './components/Float/QueryNodeSelect'
+import QueryNodeInputSelect from './components/Float/QueryNodeInputSelect'
 import SessionClearModal from './components/Modals/SessionClearModal'
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import About from './components/Modals/About.jsx'
@@ -45,6 +46,7 @@ export default class AppContainer extends Component {
 					<Settings />
 					<ZoomContainer />
 					<QueryNodeSelect />
+					<QueryNodeInputSelect />
 					<About />
 				</div>
 			</CSSTransitionGroup>

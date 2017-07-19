@@ -7,6 +7,10 @@ export default class PrebuiltQueryNode extends Component {
 			c = function(){
 				emitter.emit('nodeSelectQuery', this.props.info.nodeSelectQuery)
 			}.bind(this)
+		}else if (this.props.info.requireNodeInputSelect){
+			c = function(){
+				emitter.emit('nodeInputSelectQuery', this.props.info.nodeInputSelectQuery)
+			}.bind(this)
 		}else{
 			c = function(){
 				emitter.emit('query', this.props.info.query, this.props.info.props, "", "", this.props.info.allowCollapse)
