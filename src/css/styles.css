@@ -765,7 +765,7 @@ div.tooltip-inner-custom {
 }
 
 .queryNodeInputSelect div.panel-body {
-    overflow-y: auto;
+    overflow-y: visible;
     max-height: 16em;
 }
 
